@@ -14,7 +14,7 @@ const ContactForm = () => {
 
     const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID
     const TEMPLATE_ID =  process.env.NEXT_PUBLIC_TEMPLATE_ID
-    const KEY = process.env.NEXT_PUBLIC_PUBLIC_KEY
+    const KEY = process.env.NEXT_PUBLIC_KEY
 
     const resetState = () => {
         setName("");
