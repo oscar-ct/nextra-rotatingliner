@@ -9,7 +9,7 @@ const ContactForm = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [error, setError] = useState(false);
-    const [success, setSuccess] = useState(true);
+    const [success, setSuccess] = useState(false);
     const [btnDisabled, setBtnDisabled] = useState(false);
 
     const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID
