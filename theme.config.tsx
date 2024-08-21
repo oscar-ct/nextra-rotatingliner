@@ -31,10 +31,10 @@ const config: DocsThemeConfig = {
             <meta property="og:title" content="The Rotating Liner"/>
             <meta property="og:description"
                   content="Welcome to Rotating Liner! Improving the efficiency of the most efficient industrial prime mover, the diesel engine, via friction reduction."/>
-            <link rel="apple-touch-icon" href="/images/apple-touch-icon.png"/>
-            <link rel="icon" href="/images/favicon.ico"/>
-            <link rel="icon" type="image/png" href="/images/favicon-32x32.png"/>
-            <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico'/>
+            <link rel="apple-touch-icon" href="/public/apple-touch-icon.png"/>
+            <link rel="icon" href="/favicon.ico"/>
+            <link rel="icon" type="image/png" href="/favicon-32x32.png"/>
+            <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'/>
         </>
     )
 }
