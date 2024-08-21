@@ -6,6 +6,10 @@
     gap: 32px;
 }
 
+.card {
+    padding: 36px;
+}
+
 .button {
    background-color: #2a374d;
    border: 0 solid #e2e8f0;
@@ -83,5 +87,8 @@
     .formContainer {
         flex-direction: column;
         gap: 16px;
+    }
+    .card {
+        padding: 24px 16px 24px 16px;
     }
 }

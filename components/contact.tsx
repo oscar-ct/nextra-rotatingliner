@@ -9,7 +9,7 @@ const ContactForm = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [error, setError] = useState(false);
-    const [success, setSuccess] = useState(false);
+    const [success, setSuccess] = useState(true);
     const [btnDisabled, setBtnDisabled] = useState(false);
 
     const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID
@@ -48,7 +48,7 @@ const ContactForm = () => {
     return (
         <>
             <div className={`nx-mt-12 nx-bg-gray-100 nx-rounded-lg ${styles.fromWrapper}`}>
-                <div className={"nx-p-8"}>
+                <div className={styles.card}>
                     <div className={"nx-pb-8 nx-w-full nx-text-4xl nx-font-semibold"}>
                         Have an inquiry? Send us a message
                     </div>
@@ -118,14 +118,14 @@ const ContactForm = () => {
                     </form>
                     {
                         success && (
-                            <div className={"nx-text-center"}>
+                            <div className={"nx-text-center nx-pt-4"}>
                                 Message sent successfully.
                             </div>
                         )
                     }
                     {
                         error && (
-                            <div className={"nx-text-center nx-text-red-500"}>
+                            <div className={"nx-text-center nx-text-red-500 nx-pt-4"}>
                                 Something went wrong, please try again later.
                             </div>
                         )
