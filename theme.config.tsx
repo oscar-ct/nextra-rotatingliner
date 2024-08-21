@@ -3,12 +3,12 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from "next/image";
 import rotatingliner from "./images/Picture1.jpg"
 import { useRouter } from 'next/router'
-import Link from "next/link";
 
 
 const config: DocsThemeConfig = {
-    gitTimestamp: false,
-    logo: <span className={"nx-flex nx-items-center"}><Image src={rotatingliner} alt={"rotating liner"} width={35} height={35} priority className={"nx-w-8 nx-h-8 nx-mr-2"}/>The Rotating Liner Engine</span>,
+    gitTimestamp: <span></span>,
+    logo: <span className={"nx-flex nx-items-center"}><Image src={rotatingliner} alt={"rotating liner"} width={35}
+                                                             height={35} priority className={"nx-w-8 nx-h-8 nx-mr-2"}/>The Rotating Liner Engine</span>,
     footer: {
         text: `Tribo Dynamics Inc.`,
     },
@@ -19,7 +19,7 @@ const config: DocsThemeConfig = {
         component: null
     },
     useNextSeoProps: () => {
-        const { asPath } = useRouter()
+        const {asPath} = useRouter()
         if (asPath !== '/') {
             return {
                 titleTemplate: '%s – RLE'
