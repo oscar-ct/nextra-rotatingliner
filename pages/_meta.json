@@ -1,0 +1,24 @@
+{
+  "index": "Introduction (RLE)",
+  "problem": "The Problem",
+  "solution": "Our Solution",
+  "explanation" : "How Did We Do It?",
+  "prototype": "RLE Alpha Prototype",
+  "challenge" : "Main Commercialization Challenge",
+  "revenue" : "Revenue Model",
+  "competition" : "Competition",
+  "market" : "Market Size",
+  "analysis": "Economic Analysis",
+  "projections": "Financial Projections",
+  "traction": "Traction",
+  "team" : "Tribo Team",
+  "funding" : "Funding Requirements",
+  "about": {
+    "title": "About RLE",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page"
+  }
+}

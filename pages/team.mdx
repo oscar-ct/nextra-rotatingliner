@@ -1,0 +1,46 @@
+# Our Team Members
+
+import member from "../images/Picture10.jpg"
+import member2 from "../images/Picture11.jpg"
+import member3 from "../images/PngItem_307416.png"
+import member4 from "../images/Picture12.jpg"
+import Image from "next/image";
+
+<div className={"nx-w-full nx-flex nx-flex-col nx-justify-center nx-pt-12 nx-gap-4"}>
+    <div className={"nx-flex nx-flex-col nx-items-center"}>
+        <Image
+            className={""}
+            priority
+            src={member}
+            alt={"person"}
+        />
+        Co-Founder & CEO: Sebastian Riley
+    </div>
+    <div className={"nx-flex nx-flex-col nx-items-center"}>
+        <Image
+            priority
+            src={member2}
+            alt={"person"}
+        />
+        Co-Founder & CTO: Dimitri Dardalis, PhD
+    </div>
+    <div className={"nx-flex nx-flex-col nx-items-center"}>
+        <Image
+            priority
+            src={member3}
+            alt={"person"}
+            width={150}
+            height={170}
+            style={{width: "150px", height: "170px"}}
+        />
+        Co-Founder & CPO: Jim Degroot
+    </div>
+    <div className={"nx-flex nx-flex-col nx-items-center"}>
+        <Image
+            priority
+            src={member4}
+            alt={"person"}
+        />
+        Business Advisor: Amiyo Basu, PhD
+    </div>
+</div>
