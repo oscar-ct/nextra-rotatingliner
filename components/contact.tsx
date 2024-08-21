@@ -49,13 +49,13 @@ const ContactForm = () => {
         <>
             <div className={`nx-mt-12 nx-bg-gray-100 nx-rounded-lg ${styles.fromWrapper}`}>
                 <div className={styles.card}>
-                    <div className={"nx-pb-8 nx-w-full nx-text-4xl nx-font-semibold"}>
+                    <div className={"nx-pb-8 nx-w-full nx-text-4xl nx-font-semibold dark:nx-text-neutral-600"}>
                         Have an inquiry? Send us a message
                     </div>
                     <form ref={form} onSubmit={sendEmail} className={`${styles.formContainer}`}>
                         <div className={"nx-w-full nx-flex nx-flex-col nx-gap-4"}>
                             <div>
-                                <label htmlFor={"name"}>Name
+                                <label htmlFor={"name"} className={"dark:nx-text-neutral-600"}>Name
                                 </label>
                                 <input
                                     name={"from_name"}
@@ -70,7 +70,7 @@ const ContactForm = () => {
                                 />
                             </div>
                             <div>
-                                <label htmlFor={"email"}>Email
+                                <label htmlFor={"email"} className={"dark:nx-text-neutral-600"}>Email
                                 </label>
                                 <input
                                     name={"email_id"}
@@ -88,7 +88,7 @@ const ContactForm = () => {
                         </div>
                         <div className={"nx-w-full nx-flex nx-flex-col"}>
                             <div>
-                                <label htmlFor={"message"}>Message
+                                <label htmlFor={"message"} className={"dark:nx-text-neutral-600"}>Message
                                 </label>
                                 <textarea
                                     name={"message"}
