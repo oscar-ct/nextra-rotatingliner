@@ -3,17 +3,18 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from "next/image";
 import rotatingliner from "./images/Picture1.jpg"
 import { useRouter } from 'next/router'
+import Footer from "./components/footer";
 
 
 const config: DocsThemeConfig = {
     gitTimestamp: <span></span>,
-    logo: <span className={"nx-flex nx-items-center"}><Image src={rotatingliner} alt={"rotating liner"} width={35}
-                                                             height={35} priority className={"nx-w-8 nx-h-8 nx-mr-2"}/>The Rotating Liner Engine</span>,
+    logo: <span className={"nx-flex nx-items-center"}><Image src={rotatingliner} alt={"rotating liner"} width={35} height={35} priority className={"nx-w-8 nx-h-8 nx-mr-2"}/>The Rotating Liner Engine</span>,
     footer: {
-        text: `Tribo Dynamics Inc.`,
+        // text: `Tribo Dynamics Inc.`,
+        component: <Footer/>
     },
     feedback: {
-        useLink: args => "mailto:oscar.a.castro818@gmail.com"
+        content: null
     },
     editLink: {
         component: null
