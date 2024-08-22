@@ -10,11 +10,20 @@ The RLE technology eliminates these frictional losses
 
 import rotatingliners from "../images/Picture2.jpg"
 import Image from "next/image";
+import YoutubeEmbed from "../components/youtube";
 
-<div className={"nx-w-full nx-flex nx-justify-center nx-pt-12"}>
-    <Image
-        priority
-        src={rotatingliners}
-        alt={"rotating liners"}
-    />
+<div className={"nx-w-full nx-flex nx-flex-col nx-pt-12"}>
+    <div className={"nx-flex nx-justify-center"}>
+        <Image
+            priority
+            src={rotatingliners}
+            alt={"rotating liners"}
+        />
+    </div>
+
+    ## Rotating Liner Inspection
+
+    <div className={"nx-flex nx-justify-center"}>
+        <YoutubeEmbed embedId={"3EI9z_gGhvY"}/>
+    </div>
 </div>

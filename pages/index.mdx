@@ -1,5 +1,5 @@
-# The Rotating Liner Engine
- 
+## The Rotating Liner Engine
+
 Welcome to Rotating Liner! We are improving the efficiency of the most efficient industrial prime mover, the diesel engine, via friction reduction.
 
 ## What is a Rotating Liner Engine?
@@ -11,12 +11,21 @@ RLE **improves** efficiency, **decreases** pollutants, **increases** durability,
 
 import rotatingliner from "../images/Picture1.jpg"
 import Image from "next/image";
+import YoutubeEmbed from "../components/youtube";
 
-<div className={"nx-w-full nx-flex nx-justify-center nx-pt-6"}>
-    <Image
-        priority
-        src={rotatingliner}
-        alt={"rotating liner"}
-    />
+<div className={"nx-w-full nx-flex nx-flex-col nx-pt-6"}>
+    <div className={"nx-flex nx-justify-center"}>
+        <Image
+            priority
+            src={rotatingliner}
+            alt={"rotating liner"}
+        />
+    </div>
+
+    ## How does it work?
+
+    <div className={"nx-flex nx-justify-center"}>
+        <YoutubeEmbed embedId={"bZFXEMU3e7s"}/>
+    </div>
 </div>
 
