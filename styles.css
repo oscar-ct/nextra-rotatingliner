@@ -1,14 +1,14 @@
-body {
-    background-image: url("/images/Picture1-removebg-preview.png");
-    background-repeat: no-repeat;
-    background-size: 150px 150px;
-    background-position: right top;
-    background-position-y: 45px;
-}
+/*body {*/
+/*    background-image: url("/images/Picture1-removebg-preview.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 150px 150px;*/
+/*    background-position: right top;*/
+/*    background-position-y: 45px;*/
+/*}*/
 
-@media (max-width: 768px) {
-    body {
-        background-position-y: 55px;
-        background-size: 85px 85px;
-    }
-}
+/*@media (max-width: 768px) {*/
+/*    body {*/
+/*        background-position-y: 55px;*/
+/*        background-size: 85px 85px;*/
+/*    }*/
+/*}*/
