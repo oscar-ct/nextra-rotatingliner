@@ -1,14 +1,15 @@
 /*body {*/
-/*    background-image: url("/images/Picture1-removebg-preview.png");*/
+/*    background-image: url("/images/");*/
 /*    background-repeat: no-repeat;*/
-/*    background-size: 150px 150px;*/
-/*    background-position: right top;*/
-/*    background-position-y: 45px;*/
+/*    background-size: cover;*/
 /*}*/
 
 /*@media (max-width: 768px) {*/
 /*    body {*/
-/*        background-position-y: 55px;*/
-/*        background-size: 85px 85px;*/
 /*    }*/
 /*}*/
+
+
+.subheading-anchor:after {
+    color: transparent!important;
+}
