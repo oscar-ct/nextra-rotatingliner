@@ -4,6 +4,7 @@ import Image from "next/image";
 import rotatingliner from "./images/Picture0.jpg"
 import { useRouter } from 'next/router'
 import Footer from "./components/footer";
+import Link from "next/link";
 
 
 const config: DocsThemeConfig = {
@@ -41,6 +42,14 @@ const config: DocsThemeConfig = {
     ),
     search: {
         component: <span></span>
+    },
+    banner: {
+        key: 'rle-investment',
+        text: (
+            <Link href="/investment">
+                Interested in RLE investment opportunities?  Read more →
+            </Link>
+        )
     }
 }
 
