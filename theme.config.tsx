@@ -47,7 +47,7 @@ const config: DocsThemeConfig = {
         key: 'rle-investment',
         text: (
             <Link href="/investment">
-                Interested in RLE investment opportunities?  Read more →
+                Interested in RLE investment opportunities?  Learn more →
             </Link>
         )
     }
