@@ -1,7 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from "next/image";
-import rotatingliner from "./images/Picture0.jpg"
+import rotatingliner from "./images/RLE_Navbar.webp"
 import { useRouter } from 'next/router'
 import Footer from "./components/footer";
 import Link from "next/link";
