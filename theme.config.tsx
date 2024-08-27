@@ -31,8 +31,8 @@ const config: DocsThemeConfig = {
     head: (
         <>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <meta property="og:title" content="The Rotating Liner"/>
-            <meta property="og:description"
+            <meta name="title" property="og:title" content="The Rotating Liner Engine"/>
+            <meta name="description" property="og:description"
                   content="Welcome to Rotating Liner! We are improving the efficiency of the most efficient industrial prime mover, the diesel engine, via friction reduction."/>
             <link rel="apple-touch-icon" href="/public/apple-touch-icon.png"/>
             <link rel="icon" href="/favicon.ico"/>
