@@ -41,8 +41,8 @@ const Slides = () => {
                 ref={swiperRef}
                 slidesPerView={1}
                 autoplay={{
-                    delay: 5000,
-                    disableOnInteraction: false
+                    delay: 8000,
+                    disableOnInteraction: true
                 }}
                 modules={[EffectFade, Autoplay, Scrollbar, Pagination, Navigation]}
                 fadeEffect={{crossFade: true}}
@@ -53,10 +53,10 @@ const Slides = () => {
                 navigation
             >
                 <SwiperSlide>
-                    <Image src={img5} alt={"rle inspection"} className={"nx-w-full"} style={{backgroundSize: "cover"}}/>
+                    <Image priority src={img5} alt={"rle inspection"} className={"nx-w-full"} style={{backgroundSize: "cover"}}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image priority src={img1} alt={"rle inspection"} className={"nx-w-full"} style={{backgroundSize: "cover"}}/>
+                    <Image src={img1} alt={"rle inspection"} className={"nx-w-full"} style={{backgroundSize: "cover"}}/>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image src={img2} alt={"rle inspection"} className={"nx-w-full"} style={{backgroundSize: "cover"}}/>
@@ -75,14 +75,14 @@ const Slides = () => {
                 currentSlide === 0 && (
                     <div className={"nx-flex nx-flex-col nx-pt-8 nx-text-xl nx-gap-4"}>
                         <div>
-                            Thrust bearing inserts plus pre-loading o-rings (red).
+                            <span className={"nx-text-sm"}>&#128308;</span> - Thrust bearing inserts plus pre-loading o-rings.
                         </div>
                         <div>
-                            Grooves on head gasket that relieve pressure behind secondary seal during startup, allowing seal
-                            to seat. Prior to this, primary sealing ring leaked occasionally (blue).
+                        <span className={"nx-text-sm"}>&#128309;</span> - Grooves on head gasket that relieve pressure behind secondary seal during startup, allowing seal
+                            to seat. Prior to this, primary sealing ring leaked occasionally.
                         </div>
                         <div>
-                            Area on RL face that engages head insert thrust bearing brass inserts (green).
+                        <span className={"nx-text-sm"}>&#128994;</span> - Area on RL face that engages head insert thrust bearing brass inserts.
                         </div>
                     </div>
                 )
@@ -91,10 +91,11 @@ const Slides = () => {
                 currentSlide === 1 && (
                     <div className={"nx-flex nx-flex-col nx-text-xl nx-gap-4"}>
                         <div className={"nx-inline-block"}>
-                            Carbon deposits on head shield OD stops here, indicating no blowby flow (red).
+                            <span className={"nx-text-sm"}>&#128308;</span> - Carbon deposits on head shield OD stops here,
+                            indicating no blowby flow.
                         </div>
                         <div className={"nx-inline-block"}>
-                            Springs are clean from carbon deposits (blue).
+                            <span className={"nx-text-sm"}>&#128309;</span> - Springs are clean from carbon deposits.
                         </div>
                     </div>
                 )
@@ -102,9 +103,9 @@ const Slides = () => {
             {
                 currentSlide === 2 && (
                     <div className={"nx-text-xl nx-pt-8"}>
-                        0.040" O-ring that preloads thrust inserts in order to deal with RL face runout. Brass thrust
+                        <span className={"nx-text-sm"}>&#128308;</span> - 0.040" O-ring that preloads thrust inserts in order to deal with RL face runout. Brass thrust
                         bearing inserts take upwards thrust load from oil pressure. Rubbing faces show only minor wear,
-                        probably just break-in, faces polished (red).
+                        probably just break-in, faces polished.
                     </div>
                 )
             }
@@ -112,8 +113,8 @@ const Slides = () => {
                 currentSlide === 3 && (
                     <div className={"nx-flex nx-flex-col nx-pt-8 nx-text-xl nx-gap-4"}>
                         <div>
-                            The source of these scratches is unknown, they likely originated during assembly. Scratches are
-                            too shallow to interfere with sealing (red).
+                            <span className={"nx-text-sm"}>&#128308;</span> - The source of these scratches is unknown, they likely originated during assembly. Scratches are
+                            too shallow to interfere with sealing.
                         </div>
                     </div>
                 )
@@ -122,7 +123,7 @@ const Slides = () => {
                 currentSlide === 4 && (
                     <div className={"nx-flex nx-flex-col nx-pt-8 nx-text-xl nx-gap-4"}>
                         <div>
-                            Carbon deposits stop here, shiny above that spot. Again, no blowby flow (red).
+                            <span className={"nx-text-sm"}>&#128308;</span> - Carbon deposits stop here, shiny above that spot. Again, no blowby flow.
                         </div>
                     </div>
                 )
@@ -131,13 +132,13 @@ const Slides = () => {
                 currentSlide === 5 && (
                     <div className={"nx-flex nx-flex-col nx-pt-8 nx-text-xl nx-gap-4"}>
                         <div>
-                            This area on OD of RL, about 0.100 wide showed distress in prior runs, now with expanded oil
+                            <span className={"nx-text-sm"}>&#128308;</span> - This area on OD of RL, about 0.100 wide showed distress in prior runs, now with expanded oil
                             groove no distress is visible, but we still think this area still causes thermal seizure due to
-                            still inadequate oil supply (red).
+                            still inadequate oil supply.
                         </div>
                         <div>
-                            Brass thrust washer, takes downward thrust load from springs until oil pressure builds up, face
-                            shiny, very little wear (blue).
+                            <span className={"nx-text-sm"}>&#128309;</span> - Brass thrust washer, takes downward thrust load from springs until oil pressure builds up, face
+                            shiny, very little wear.
                         </div>
                     </div>
                 )
