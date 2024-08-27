@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const config: DocsThemeConfig = {
     gitTimestamp: <span></span>,
-    logo: <span className={"nx-flex nx-items-center"}><Image src={rotatingliner} alt={"rotating liner"} width={57} height={42} priority className={"nx-mr-2"} style={{width: 57, height: 42}}/>The Rotating Liner Engine</span>,
+    logo: <span className={"nx-flex nx-items-center"}><Image src={rotatingliner} alt={"rotating liner"} width={57} height={42} priority className={"nx-mr-2"} style={{width: 57, height: 42}}/>Rotating Liner Engine</span>,
     footer: {
         // text: `Tribo Dynamics Inc.`,
         component: <Footer/>
