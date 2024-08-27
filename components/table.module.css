@@ -31,3 +31,9 @@
 .styledTable tbody td:not(:first-of-type) {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .styledTable {
+        min-width: 100%;
+    }
+}
