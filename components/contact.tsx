@@ -73,7 +73,7 @@ const ContactForm = () => {
                                 <label htmlFor={"email"} className={"dark:nx-text-neutral-600"}>Email
                                 </label>
                                 <input
-                                    name={"email_id"}
+                                    name={"from_email"}
                                     className={`nx-bg-white nx-w-full nx-px-4 nx-py-2 nx-border nx-rounded-md nx-shadow-sm  nx-ring-1 nx-ring-black/5 ${styles.input}`}
                                     autoComplete={"email"}
                                     type={"email"}
