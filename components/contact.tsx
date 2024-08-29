@@ -49,7 +49,7 @@ const ContactForm = () => {
         <>
             <div className={`nx-mt-8 nx-bg-gray-100 nx-rounded-lg ${styles.fromWrapper}`}>
                 <div className={styles.card}>
-                    <div className={"nx-pb-8 nx-w-full nx-text-4xl nx-font-semibold dark:nx-text-neutral-600"}>
+                    <div className={"nx-pb-8 nx-w-full nx-text-3xl nx-font-semibold dark:nx-text-neutral-600"}>
                         Have an inquiry? Send us a message
                     </div>
                     <form ref={form} onSubmit={sendEmail} className={`${styles.formContainer}`}>
